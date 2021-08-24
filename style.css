@@ -1,0 +1,16 @@
+/* nav{
+    position: absolute;
+    right: 0;
+} */
+
+main img{
+    max-width: 250px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: auto 4fr auto;
+    gap: 10px;
+    grid-template-rows: auto 5fr auto auto;
+}
+
