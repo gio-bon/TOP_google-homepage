@@ -103,3 +103,51 @@ main img{
 .pt-four p{
     text-align: center;
 }
+
+.pt-five{
+    background: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: block;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    padding-top: 5px;
+    color: rgba(0,0,0,.54);
+    padding-left: 10px;
+}
+
+.bott-left{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    float: left;
+    padding: 10px;
+    font-family: arial,sans-serif;
+}
+.bott-left a{
+    padding-right: 15px;
+    color: rgba(29, 29, 29, 0.54);
+}
+.bott-right{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    float: right;
+    padding: 10px;
+    font-family: arial,sans-serif;
+    color: rgba(41, 41, 41, 0.54);
+}
+.bott-right a{
+    padding-right: 15px;
+    color: rgba(29, 29, 29, 0.54);
+}
+.down{
+    background: #f2f2f2;
+    display: block;
+    flex-grow:  1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    height: 40px;
+    border-top: 1px solid #d1d3d4;
+    font-size: 15px;
+}
